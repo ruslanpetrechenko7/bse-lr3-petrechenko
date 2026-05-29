@@ -5,9 +5,14 @@
     "test": "jest --coverage"
   },
   "jest": {
-    "testMatch": ["**/*.test.js"]
+    "testMatch": [
+      "**/*.test.js"
+    ]
   },
   "devDependencies": {
     "jest": "^30.4.2"
+  },
+  "dependencies": {
+    "@eslint/js": "^10.0.1"
   }
 }
